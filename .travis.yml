@@ -4,5 +4,5 @@ branches:
     - "master"
 sudo: false
 script:
-  - make hello.c
+  - make hello
   - ./hello
