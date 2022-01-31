@@ -1,9 +1,8 @@
 language: c
-compiler: gcc
 branches:
   only:
     - "master"
 sudo: false
 script:
-  - gcc hello.c -o hello
+  - make hello.c
   - ./hello
